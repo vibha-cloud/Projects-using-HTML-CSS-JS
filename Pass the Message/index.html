@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass the message</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <p>
+                <h3 class="head">Pass the Message</h3>
+                <p class="p"></p>
+            </p>
+            <p>
+                <label for="message-input">Enter a message: </label> <br>
+                <button class="btn"><i class="fa-regular fa-envelope"></i></button><input id="message-input" type="text">
+            </p>
+            <p>
+                <button class="btn" onclick="getMessage()">Submit</button>
+            </p>
+            <p id="message-output"></p>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>

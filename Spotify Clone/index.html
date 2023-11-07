@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="brand">
+        <img src="logo.png" alt="" />
+        <h3>Spotify</h3>
+      </div>
+      <div class="right">
+        <span>Home</span>
+        <span>About</span>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="songList">
+        <h1>Best of Taylor Swift</h1>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <span class="songTitle">What makes you Beautiful</span>
+            <span
+              >3:26<i id="0" class="fa-solid fa-circle-play songPlay"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <span class="songTitle">Just you and I</span>
+            <span
+              >2:55<i id="1" class="fa-solid fa-circle-play songPlay"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <span class="songTitle">Stanly</span>
+            <span
+              >3:41<i id="2" class="fa-solid fa-circle-play songPlay"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <span class="songTitle">Heat Waves</span>
+            <span
+              >2:40<i id="3" class="fa-solid fa-circle-play songPlay"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <span class="songTitle">Desires</span>
+            <span
+              >3:02<i id="4" class="fa-solid fa-circle-play songPlay"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <span class="songTitle">Ma Belle</span>
+            <span
+              >2:48<i id="5" class="fa-solid fa-circle-play songPlay"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <span class="songTitle">Teri Hogaiyaan</span>
+            <span
+              >2:40<i id="6" class="fa-solid fa-circle-play songPlay"></i
+            ></span>
+          </div>
+          <div class="songItem">
+            <span class="songTitle">Raataan Lambiyaan</span>
+            <span
+              >3:50<i id="7" class="fa-solid fa-circle-play songPlay"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        value="0"
+        id="progressBar"
+        min="0"
+        max="100"
+      />
+      <div class="icons">
+        <i id="previous" class="fa-solid fa-backward-step"></i>
+        <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+        <i id="next" class="fa-solid fa-forward-step"></i>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" alt="" id="gif" />
+        <h4 class="currentSong">What makes you Beautiful</h4>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

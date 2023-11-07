@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(to right, rgb(248, 118, 118), rgb(249, 228, 228));
+}
+
+.box {
+  padding: 20px;
+}
+
+img {
+  height: 30vh;
+  width: 25vw;
+}
+
+.container {
+  height: 100vh;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading h1 {
+  margin: 2vw;
+  font-size: 3vw;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#myCards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#myCards .card {
+  width: 380px;
+  height: auto;
+  margin: 20px 0;
+  background-color: black;
+  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+#myCards .card:hover {
+  transform: scale(1.1);
+}
+
+#myCards .card a {
+  color: yellow;
+  font-size: 28px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#myCards .card img {
+  width: 100%;
+}
+
+#myCards .card p {
+  color: white;
+}

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+  background-color: black;
+  color: white;
+}
+
+header {
+  border-bottom: 5px solid orange;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2.5vw 0;
+}
+
+.nav h2 {
+  font-size: 2.3vw;
+}
+
+.nav h2 i {
+  color: orange;
+}
+
+.search-box {
+  position: relative;
+  width: 25vw;
+}
+
+.search-box input {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1vw;
+  padding: 0.5vw;
+  border-radius: 2.5vw;
+  outline: none;
+}
+
+.search-box i {
+  position: absolute;
+  color: black;
+  top: 25%;
+  right: 4%;
+  transition: 1s;
+}
+
+.search-box i:hover {
+  color: orange;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.img {
+  width: 380px;
+  height: 200px;
+  margin-top: 15px;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .img {
+    width: 100%;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .nav h2 {
+    padding: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav h2 {
+    text-align: center;
+    font-size: 1.5vw;
+  }
+  .search-box {
+    width: 80%;
+    margin: auto;
+  }
+}

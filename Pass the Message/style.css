@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(#b8dafc, white);
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 3vw;
+}
+
+.head {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+
+.p {
+  border-bottom: 1px solid gray;
+}
+
+label {
+  font-size: 1.5vw;
+}
+
+.btn {
+  padding: 3px;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid lightgray;
+  background: whitesmoke;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(102, 101, 101, 0.3);
+}
+
+#message-input {
+  width: 80vw;
+  padding: 3px;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: fit-content;
+  border: 1px solid lightgray;
+}
+
+#message-output {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  height: 100vh;
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  border: 1px solid lightgray;
+  background: whitesmoke;
+  width: 60vw;
+  height: auto;
+  margin: auto;
+  padding: 0 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 gray;
+}
