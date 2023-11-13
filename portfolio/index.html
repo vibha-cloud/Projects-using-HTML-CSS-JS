@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vibha - Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- -----navbar----- -->
+    <header>
+      <nav>
+        <div class="nav-left">
+          <h2>Vibha</h2>
+        </div>
+        <div class="nav-right">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#services" target="_blank">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- -----home----- -->
+      <section id="home" class="first-sec">
+        <div class="home-left">
+          <p>Hi, My name is</p>
+          <p class="pink">Vibha Chandola</p>
+          <p>and I am a passionate</p>
+          <span id="work"></span>
+        </div>
+        <div class="home-right">
+          <img src="./assets/my-photo.png" alt="developerImg" />
+        </div>
+      </section>
+
+      <!-- -----about----- -->
+      <section id="about" class="second-sec">
+        <div class="container">
+          <div class="info-box">
+            <h1 class="title">About Me</h1>
+            <p>
+              Hello, I'm Vibha Chandola, a dedicated computer science
+              engineering student, and a passionate frontend developer
+              proficient in HTML, CSS, and JavaScript. <br />
+              With a passion for staying at the forefront of emerging
+              technologies, I bring a combination of technical expertise and a
+              creative mindset to the ever-evolving landscape of frontend
+              development.<br />
+              I am eager to contribute my skills and dedication to the dynamic
+              field of frontend development, pushing the boundaries of user
+              interface design.
+            </p>
+          </div>
+          <div class="tab-titles">
+            <p class="tab active-link" onclick="openTab('skills')">Skills</p>
+            <p class="tab" onclick="openTab('education')">Education</p>
+            <p class="tab" onclick="openTab('experience')">Experience</p>
+          </div>
+          <div class="tab-contents active-content" id="skills">
+            <ul>
+              <li>
+                <span>Programming Languages:</span><br />C, C++, Python, Java
+              </li>
+              <li><span>Web Development:</span><br />HTML, CSS, JavaScript</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2022-Present:</span><br />B.Tech CSE from Graphic Era Hill
+                University, Bhimtal <br />(9.4 CPGA)
+              </li>
+              <li>
+                <span>2021-2022:</span><br />12th from BLM Academy, Haldwani
+                <br />(94.6%)
+              </li>
+              <li>
+                <span>2019-2020:</span><br />10th from K.V No.1 Devlali, Nashik
+                <br />(93.4%)
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>Hackathon:</span><br />Participated in internal University
+                level Hackathon with a team of 5 people.
+              </li>
+              <li>
+                <span>CodeAthon:</span><br />Participated and reached the final
+                round in the Code-A-Thon organized at the University level.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----projects----- -->
+      <section id="projects" class="third-sec">
+        <div class="container">
+          <h1 class="title">My Projects</h1>
+          <div class="projects-list">
+            <div class="project">
+              <span><i class="fa-solid fa-pen-to-square"></i></span>
+              <h2>To-do List</h2>
+              <p>
+                A resourceful project, a To-do List which helps you schedule
+                your day efficiently.
+              </p>
+              <a
+                href="https://vibha-cloud.github.io/Projects-using-HTML-CSS-JS/6_To-do%20List/index.html"
+                >Live Demo</a
+              >
+            </div>
+
+            <div class="project">
+              <span><i class="fa-solid fa-cloud-sun"></i></span>
+              <h2>Weather App</h2>
+              <p>
+                This is a weather app designed to tell you the weather of the
+                city of your choice.
+              </p>
+              <a
+                href="https://vibha-cloud.github.io/Projects-using-HTML-CSS-JS/7_Weather%20App/index.html"
+                >Live Demo</a
+              >
+            </div>
+
+            <div class="project">
+              <span><i class="fa-solid fa-mask"></i></span>
+              <h2>SuperHero API</h2>
+              <p>
+                This project displays a SuperHero on the screen on the request
+                of the user.
+              </p>
+              <a
+                href="https://vibha-cloud.github.io/Projects-using-HTML-CSS-JS/9_SuperHero%20API/index.html"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          <a
+            href="https://vibha-cloud.github.io/Projects-using-HTML-CSS-JS/"
+            class="btn"
+            >See More</a
+          >
+        </div>
+      </section>
+
+      <!-- -----work----- -->
+      <section id="works" class="forth-sec">
+        <div class="container">
+          <h1 class="title">My Work</h1>
+          <div class="works-list">
+            <div class="work">
+              <img src="./assets/calc.png" alt="work1" />
+              <div class="layer">
+                <h2>Social Media App</h2>
+                <p>
+                  The app connects you to the talented people around the world.
+                </p>
+                <a
+                  href="https://vibha-cloud.github.io/Projects-using-HTML-CSS-JS/2_Calculator/index.html"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="work">
+              <img src="./assets/tipcalc.png" alt="work2" />
+              <div class="layer">
+                <h2>Music App</h2>
+                <p>Listen to your favourite music through this app.</p>
+                <a
+                  href="https://vibha-cloud.github.io/Projects-using-HTML-CSS-JS/4_Tip%20Calculator/index.html"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="work">
+              <img src="./assets/tictactoe.png" alt="work3" />
+              <div class="layer">
+                <h2>Online Shopping App</h2>
+                <p>Get all the groceries at your doorstep using our website.</p>
+                <a
+                  href="https://vibha-cloud.github.io/Projects-using-HTML-CSS-JS/11_Tic%20Tac%20Toe/index.html"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a href="" class="btn">See More</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- -----contact----- -->
+    <footer id="contact">
+      <div class="container contact-container">
+        <div class="contact-box">
+          <div class="contact-left">
+            <h1 class="title">Contact Me</h1>
+            <p>
+              vibhachandola23012005@gmail.com
+              <a href="mailto: vibhachandola23012005@gmail.com" target="_blank"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </p>
+            <p>7668238377<i class="fa-solid fa-phone"></i></p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/vibha_chandola_/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/vibha-chandola-4389a6276/"
+                target="_blank"
+                t
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/vibha-cloud" target="_blank"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <form action="#">
+              <input type="text" name="name" placeholder="Full Name" required />
+              <input type="email" name="mail" placeholder="Email ID" required />
+              <textarea
+                name="message"
+                rows="7"
+                placeholder="Enter your Message"
+              ></textarea>
+              <button type="submit" class="btn form-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+        <a class="btn resume-btn" href="./assets/my-resume.pdf" download
+          >Download Resume</a
+        >
+      </div>
+      <div class="copyright">
+        Copyright &copy; Vibha Chandola. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#work", {
+        strings: ["Programmer", "Frontend Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
