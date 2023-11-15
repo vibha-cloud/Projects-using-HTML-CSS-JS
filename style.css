@@ -28,13 +28,6 @@ img {
   align-items: center;
 }
 
-.heading h1 {
-  margin: 2vw;
-  font-size: 3vw;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
 #myCards {
   display: flex;
   align-items: flex-start;
